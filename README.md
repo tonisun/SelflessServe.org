@@ -1,6 +1,6 @@
 # SelflessServe.org
 
-The Open Source Organisation for development selfless serving services in local.
+The Open Source Organisation for development selfless serving services in local or in global.
 
 ![logo](public/images/logo.png)
 
