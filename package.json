@@ -2,12 +2,16 @@
   "name": "selflessserve.org",
   "version": "1.0.0",
   "description": "The Open Source Organisation for development selfless serving services in local. ![](public/images/logo.png)",
-  "main": "index.js",
+  "main": "app.js",
   "directories": {
     "doc": "doc"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app",
+    "output": "nodemon app.js > output.txt 2>&1",
+    "prod": "SET NODE_ENV=production& nodemon app.js"
   },
   "keywords": [
     "selfless",
@@ -18,7 +22,14 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.3.1",
+    "dotenv": "^16.3.1",
     "ejs": "^3.1.9",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "moment-timezone": "^0.5.43",
+    "serve-favicon": "^2.5.0",
+    "winston": "^3.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
