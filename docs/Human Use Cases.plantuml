@@ -34,6 +34,5 @@ Human --> UC12
 Human --> UC13
 Human --> UC14
 
-note right of Human: The Human is central \nwith their basic needs.
 
 @enduml
