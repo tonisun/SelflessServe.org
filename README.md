@@ -1,6 +1,5 @@
 # SelflessServe.org
-
-The Open Source Organization dedicated to developing services that facilitate selfless acts of service, locally and globally.
+An Open Source Organization committed to engineering Microservices that enable humans to perform selfless acts of service, both locally and globally.
 
 ![logo](public/images/logo.png)
 
