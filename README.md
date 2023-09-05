@@ -16,7 +16,8 @@ Many people find themselves in need of help but lack the resources, time, or abi
 Globally, when resources are available, the government should assume responsibility for providing assistance.
 
 ## Getting Started
-
+### The Human is central with their basic needs
+![Human Use Cases](/out/docs/Human%20Use%20Cases/Human%20Use%20Cases.png)
 ### Prerequisites
 
 - List of necessary software/hardware required to get the application up and running.

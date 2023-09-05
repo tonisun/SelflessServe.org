@@ -1,0 +1,39 @@
+@startuml "Human Use Cases"
+left to right direction
+actor Human
+
+rectangle "Basic Human Needs" {
+  usecase "Oxygen" as UC1
+  usecase "Food" as UC2
+  usecase "Water" as UC3
+  usecase "Shelter" as UC4
+  usecase "Sleep" as UC5
+  usecase "Clothing" as UC6
+  usecase "Social Interaction" as UC7
+  usecase "Safety" as UC8
+  usecase "Healthcare" as UC9
+  usecase "Education" as UC10
+  usecase "Self-Actualization" as UC11
+  usecase "Leisure" as UC12
+  usecase "Belonging and Love" as UC13
+  usecase "Recognition and Status" as UC14
+}
+
+Human --> UC1
+Human --> UC2
+Human --> UC3
+Human --> UC4
+Human --> UC5
+Human --> UC6
+Human --> UC7
+Human --> UC8
+Human --> UC9
+Human --> UC10
+Human --> UC11
+Human --> UC12
+Human --> UC13
+Human --> UC14
+
+note right of Human: The Human is central \nwith their basic needs.
+
+@enduml
