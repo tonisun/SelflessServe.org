@@ -15,31 +15,25 @@ Many people find themselves in need of help but lack the resources, time, or abi
 Globally, when resources are available, the government should assume responsibility for providing assistance.
 
 ## Getting Started
-### The Human is central with their basic needs
+The Human is central with their basic needs for the development of services.
 ![Human Use Cases](/out/docs/Human%20Use%20Cases/Human%20Use%20Cases.png)
-### Prerequisites
+## Prerequisites
 
-- List of necessary software/hardware required to get the application up and running.
+### Technologies
+- **Java Spring Boot**: The core technology stack used for building the primary application, including user registration and management.
 
-### Installing
+### GitHub Project for Development
+- **[SelflessServe.com GitHub Repository](https://github.com/tonisun/SelflessServe.com.git)**: The central code repository where the main application and microservices are maintained and developed.
 
-A step by step series of examples that tell you how to get a development environment running.
+### Main Application Features
+- **User Registration and Management**: The main application handles user registration and their overall management, serving as the gateway to various microservices.
 
-1. Step 1
-2. Step 2
-3. etc.
+### Documentation Site
+- **[SelflessServe.org](https://www.selflessserve.org)**: This website serves as the main hub for documentation, guiding developers and users alike.
 
-## Running the tests
+### Project Objective
+- **Microservices Development by Contributors**: The idea is to have developers contribute well-documented microservices that can easily be integrated into the main application. These services aim to facilitate selfless acts of service, aligning with the project's motto that "The Human is central with their basic needs for the development of services."
 
-Explain how to run the automated tests for this system.
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system.
-
-## Built With
-
-- List of the software/v libraries used
 
 ## Contributing
 
@@ -52,4 +46,9 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 - List of people, organizations, etc., that you want to thank.
+
+### Special Thanks
+
+**Toni Zeidler**: For his invaluable contributions to the project. 
+
 
