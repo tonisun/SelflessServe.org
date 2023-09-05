@@ -3,13 +3,24 @@ An Open Source Organization committed to engineering Microservices that enable h
 
 ![logo](public/images/logo.png)
 
-## Concept
-### Concept of Selfless Service Locally
+## Example Development Path for a Local Selfless Service 
+
+![logo](out/docs/SelflessServeSystem/SelflessServe%20System.png)
+### Concept of "Nikolaus" Application
 Many people find themselves in need of help but lack the resources, time, or ability to seek assistance.
 - Our mobile app addresses this issue by allowing users to press a red button and detail their problem, whether it’s a minor inconvenience or a more significant concern.
 - Conversely, those wishing to offer their help can press a blue button and instantly check if there is a neighbor in their designated area who requires support.
 - The app can determine the distance between users, and, if both parties are agreeable, they can initiate a chat to discuss the situation in more detail.
 - Additionally, each user who provides help will have a file where they can categorize and manage the individuals they have assisted, enabling them to keep track of who needs what, and when.
+
+### UML Diagrams
+- **Class Diagrams** for the user interfaces and data models
+- **Sequence Diagrams** for actions such as 'Request Help' and 'Offer Help'
+
+
+
+
+
 
 ### Concept of Selfless Service Globally
 Globally, when resources are available, the government should assume responsibility for providing assistance.

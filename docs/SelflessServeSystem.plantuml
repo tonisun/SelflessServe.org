@@ -1,0 +1,48 @@
+@startuml "SelflessServe System"
+!define RECTANGLE class
+
+package "SelflessServe System" {
+  [SelflessServeCore] ..> (UserRegistrationAPI)
+  [SelflessServeCore] ..> (UserLoginAPI)
+  [SelflessServeCore] ..> (UserNeedsAPI)
+  [SelflessServeCore] ..> (NeedyMapAPI)
+  
+  [SelflessServeCore] -- [GenericAPI]
+  [SelflessServeCore] -- [EventBus]
+  
+  database "UserDatabase" {
+    [UserData]
+  }
+
+  [GenericAPI] --> (UserRegistrationAPI)
+  [GenericAPI] --> (UserLoginAPI)
+  [GenericAPI] --> (UserNeedsAPI)
+  [GenericAPI] --> (NeedyMapAPI)
+  
+  [EventBus] --> [AuthService]
+  [EventBus] --> [UserProfileService]
+  [EventBus] --> [NeedsMatchingService]
+  [EventBus] --> [MapService]
+  
+  (UserRegistrationAPI) --> [AuthService]
+  (UserLoginAPI) --> [AuthService]
+  
+  (UserNeedsAPI) --> [UserProfileService]
+  (UserNeedsAPI) --> [NeedsMatchingService]
+  
+  (NeedyMapAPI) --> [MapService]
+  
+  [NewMicroservices] ..> [GenericAPI]
+  [NewMicroservices] ..> [EventBus]
+}
+
+[AuthService] --> [UserData]
+[UserProfileService] --> [UserData]
+[NeedsMatchingService] -right-> [UserProfileService]
+[MapService] -left-> [UserProfileService]
+
+[ExternalResources] --> [MapService]
+[ExternalResources] --> [NeedsMatchingService]
+[NewMicroservices] --> [ExternalResources]
+
+@enduml
