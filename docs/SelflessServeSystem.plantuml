@@ -33,6 +33,7 @@ package "SelflessServe System" {
   (NeedyMapAPI) --> [MapService]
 
   component [NewMicroservices] #palegreen
+  
   [NewMicroservices] ..> [GenericAPI] #green
   [NewMicroservices] ..> [EventBus] #green
 }

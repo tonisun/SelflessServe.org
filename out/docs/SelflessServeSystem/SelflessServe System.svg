@@ -38,7 +38,7 @@ link NeedsMatchingService to UserProfileService--><g id="link_NeedsMatchingServi
 reverse link UserProfileService to MapService--><g id="link_UserProfileService_MapService"><path d="M449.94,363.48 C470.33,352.67 495.36,341.45 519.5,336 C599.27,317.99 624.61,314.46 703.5,336 C725.21,341.93 747.01,354.47 763.88,365.98 " fill="none" id="UserProfileService-backto-MapService" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="445.39,365.92,455.2132,365.2092,449.8006,363.5648,451.4449,358.1522,445.39,365.92" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[3b485e65ada90c26ca41fc4d3b5e8c50]
 link ExternalResources to MapService--><g id="link_ExternalResources_MapService"><path d="M929.68,306 C902.39,322.82 865.34,345.65 837.01,363.11 " fill="none" id="ExternalResources-to-MapService" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="832.55,365.86,842.3093,364.5352,836.8044,363.2331,838.1064,357.7282,832.55,365.86" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a95d566be395eb9e8fd5bc05c454e8a8]
 link ExternalResources to NeedsMatchingService--><g id="link_ExternalResources_NeedsMatchingService"><path d="M889.75,306 C831.77,323.26 752.53,346.86 693.35,364.48 " fill="none" id="ExternalResources-to-NeedsMatchingService" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="688.4,365.95,698.1646,367.2353,693.195,364.533,695.8974,359.5633,688.4,365.95" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a5c29fb32b384f17daa04e1eb57a6a17]
-link NewMicroservices to ExternalResources--><g id="link_NewMicroservices_ExternalResources"><path d="M663.71,90.11 C727.73,130.4 859.32,213.23 926.14,255.28 " fill="none" id="NewMicroservices-to-ExternalResources" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="930.44,257.99,924.9676,249.8014,926.2129,255.3195,920.6948,256.5648,930.44,257.99" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[51cd5b2d3215074fbe681e7d1572cd62]
+link NewMicroservices to ExternalResources--><g id="link_NewMicroservices_ExternalResources"><path d="M663.71,90.11 C727.73,130.4 859.32,213.23 926.14,255.28 " fill="none" id="NewMicroservices-to-ExternalResources" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="930.44,257.99,924.9676,249.8014,926.2129,255.3195,920.6948,256.5648,930.44,257.99" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[cf24022c34b8c28b40ba1a87f808519a]
 @startuml "SelflessServe System"
 !define RECTANGLE class
 
@@ -74,6 +74,7 @@ package "SelflessServe System" {
   (NeedyMapAPI) - -> [MapService]
 
   component [NewMicroservices] #palegreen
+  
   [NewMicroservices] ..> [GenericAPI] #green
   [NewMicroservices] ..> [EventBus] #green
 }
@@ -123,6 +124,7 @@ package "SelflessServe System" {
   (NeedyMapAPI) - -> [MapService]
 
   component [NewMicroservices] #palegreen
+  
   [NewMicroservices] ..> [GenericAPI] #green
   [NewMicroservices] ..> [EventBus] #green
 }

@@ -1,6 +1,6 @@
 @startuml "Human Use Cases"
 left to right direction
-actor Human
+actor Human #palegreen
 
 rectangle "Basic Human Needs" {
   usecase "Oxygen" as UC1
