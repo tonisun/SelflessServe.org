@@ -3,6 +3,10 @@ An Open Source Organization committed to engineering Microservices that enable h
 
 ![logo](public/images/logo.png)
 
+## Getting Started
+The Human is central with their basic needs for the development of services.
+![Human Use Cases](/out/docs/Human%20Use%20Cases/Human%20Use%20Cases.png)
+
 ## Example Development Path for a Local Selfless Service 
 
 ![logo](out/docs/SelflessServeSystem/SelflessServe%20System.png)
@@ -25,9 +29,7 @@ Many people find themselves in need of help but lack the resources, time, or abi
 ### Concept of Selfless Service Globally
 Globally, when resources are available, the government should assume responsibility for providing assistance.
 
-## Getting Started
-The Human is central with their basic needs for the development of services.
-![Human Use Cases](/out/docs/Human%20Use%20Cases/Human%20Use%20Cases.png)
+
 ## Prerequisites
 
 ### Technologies

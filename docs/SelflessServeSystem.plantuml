@@ -31,9 +31,10 @@ package "SelflessServe System" {
   (UserNeedsAPI) --> [NeedsMatchingService]
   
   (NeedyMapAPI) --> [MapService]
-  
-  [NewMicroservices] ..> [GenericAPI]
-  [NewMicroservices] ..> [EventBus]
+
+  component [NewMicroservices] #palegreen
+  [NewMicroservices] ..> [GenericAPI] #green
+  [NewMicroservices] ..> [EventBus] #green
 }
 
 [AuthService] --> [UserData]
