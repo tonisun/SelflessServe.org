@@ -6,7 +6,7 @@ An Open Source Organization committed to engineering Microservices that enable h
 ## Example Development Path for a Local Selfless Service 
 
 ![logo](out/docs/SelflessServeSystem/SelflessServe%20System.png)
-### Concept of "Nikolaus" Application
+### Concept of "Nikolaus" Microservice
 Many people find themselves in need of help but lack the resources, time, or ability to seek assistance.
 - Our mobile app addresses this issue by allowing users to press a red button and detail their problem, whether it’s a minor inconvenience or a more significant concern.
 - Conversely, those wishing to offer their help can press a blue button and instantly check if there is a neighbor in their designated area who requires support.
